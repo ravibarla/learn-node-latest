@@ -6,6 +6,7 @@ const http = require("http");
 //2. create server
 const server = http.createServer((req, res) => {
   console.log(req.url);
+  res.write("welcome to my application");
   if (req.url == "/product") {
     //response ends
     res.end("this is product page :");
