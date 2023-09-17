@@ -1,9 +1,9 @@
 // function sum(x, y) {
 //   return x + y;
 // }
-exports.sum = (x, y) => {
+export function sum(x, y) {
   return x + y;
-};
+}
 function div(x, y) {
   return x / y;
 }
