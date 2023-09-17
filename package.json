@@ -1,0 +1,23 @@
+{
+  "name": "firstserver",
+  "version": "1.0.0",
+  "description": "my first server app using nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravibarla/learn-node-latest.git"
+  },
+  "author": "ravi barla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravibarla/learn-node-latest/issues"
+  },
+  "homepage": "https://github.com/ravibarla/learn-node-latest#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
