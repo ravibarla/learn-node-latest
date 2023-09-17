@@ -1,7 +1,7 @@
-function sum(x, y) {
-  return x + y;
-}
-module.exports.sum = (x, y) => {
+// function sum(x, y) {
+//   return x + y;
+// }
+exports.sum = (x, y) => {
   return x + y;
 };
 function div(x, y) {
