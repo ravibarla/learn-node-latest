@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ravibarla/learn-node-latest#readme",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.5"
   }
 }
