@@ -12,14 +12,14 @@ async function sendMail() {
       pass: "rqks rilb lvne kiqj",
     },
   });
-  //configure email content
+  //2. configure email content
   const mailOptions = {
     from: "ad665014@gmail.com",
     to: "barlaravi10@gmail.com",
     subject: "welcome to node js app",
     text: "this is an email using node js emailer  ",
   };
-  //send this mail
+  //3. send this mail
   try {
     const rsult = await transporter.sendMail(mailOptions);
     console.log("email sent successfully");
